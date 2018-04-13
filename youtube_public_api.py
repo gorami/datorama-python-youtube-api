@@ -1,4 +1,4 @@
-# import datorama
+import datorama
 import requests
 import datetime
 
@@ -57,5 +57,5 @@ if len(data) > 0:
 	# Add CSV headers to data
 	csv = headers + data
 	# Saving the csv file, based on the input string 
-	# datorama.save_csv(csv)
+	datorama.save_csv(csv)
 	print(csv)
